@@ -25,7 +25,7 @@ const addProduct = () =>{
 const displayProduct = name =>{
     const ul = document.getElementById("products");
     const li = document.createElement('li');
-    li.innerText = name;
+    li.innerText = name; 
     ul.appendChild(li);
 }
 

@@ -3,7 +3,7 @@ const addLocalStorage = ()=> {
     const keyValue = key.value;
 
     const valueField = document.getElementById("valueId");
-    const value = valueField.value;
+    const value = valueField.value; 
 
     const valueStringified = JSON.stringify(value);
     if (keyValue && value) {

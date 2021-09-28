@@ -19,7 +19,7 @@ const setItem = (property,value) =>{
     person2[property] = value;
 }
 setItem("color","white");
-console.log(person2);
+console.log(person2); 
 
 
 
